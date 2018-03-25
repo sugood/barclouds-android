@@ -1,0 +1,5 @@
+<animation-list android:oneshot="false"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:duration="100" android:drawable="@drawable/refreshing_image_01" />
+	<item android:duration="100" android:drawable="@drawable/refreshing_image_02" />
+</animation-list>

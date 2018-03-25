@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/rl_categories"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/backgroundcolor" >
+
+            <ImageView
+                android:id="@+id/iv_choose_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_choose_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="今日新单"
+                android:textColor="@color/black"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/iv_choose_skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="18dp"
+                android:src="@color/white" />
+
+        </RelativeLayout>
+

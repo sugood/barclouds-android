@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/blue" >
+
+        <ImageButton
+            android:id="@+id/imagebutton_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_city"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@mipmap/diary_title_icon_setting" />
+
+        <TextView
+            android:id="@+id/textview_diary"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/imagebutton_setting"
+            android:gravity="center_vertical"
+            android:background="@color/blue"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="导入导出"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="资料导入"
+                android:textSize="15sp"
+                android:layout_marginBottom="4dp"
+                />
+
+            <com.barclouds.views.myview.MyGridView
+                android:layout_gravity="center"
+                android:id="@+id/gridview_menu_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:fadingEdge="none"
+                android:numColumns="3"
+                android:divider="@android:color/transparent"
+                android:listSelector="#00000000"
+                >
+            </com.barclouds.views.myview.MyGridView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="数据导出"
+                android:textSize="15sp"
+                android:layout_marginBottom="4dp"
+                />
+
+            <com.barclouds.views.myview.MyGridView
+                android:layout_gravity="center"
+                android:id="@+id/gridview_menu_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:fadingEdge="none"
+                android:numColumns="3"
+                android:divider="@android:color/transparent"
+                android:listSelector="#00000000"
+                >
+            </com.barclouds.views.myview.MyGridView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

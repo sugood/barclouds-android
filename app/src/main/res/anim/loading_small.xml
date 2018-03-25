@@ -1,0 +1,11 @@
+<animation-list android:oneshot="false"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:duration="100" android:drawable="@drawable/refresh_image" />
+	<item android:duration="100" android:drawable="@drawable/refresh_image01" />
+	<item android:duration="100" android:drawable="@drawable/refresh_image02" />
+	<item android:duration="100" android:drawable="@drawable/refresh_image03" />
+	<item android:duration="100" android:drawable="@drawable/refresh_image04" />
+	<item android:duration="100" android:drawable="@drawable/refresh_image05" />
+	<item android:duration="100" android:drawable="@drawable/refresh_image06" />
+	<item android:duration="100" android:drawable="@drawable/refresh_image07" />
+</animation-list> 

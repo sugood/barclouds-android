@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#a7ddf3</color>
+    <color name="blue">#00aaee</color>
+    <color name="green">#39BEB4</color>
+    <color name="backgroundcolor">#f0f0f0</color>
+    <color name="shallowgray">#e1e1e1</color>
+    <color name="textgray">#A39898</color>
+    <color name="shallowgreen">#C9EAE8</color>
+    <color name="transparentgray">#53756E60</color>
+     <color name="transparent_background">#50000000</color> 
+       <color name="popup_main_background">#b0000000</color>
+       <color name="orange">#FF9900</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="red">#ff0000</color>
+    <color name="viewfinder_mask">#00000000</color>
+    <color name="capture_text_cover_bg">#99535353</color>
+    <color name="seek_bar_text">#fff6f6f6</color>
+</resources>

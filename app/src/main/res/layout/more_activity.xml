@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_more_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/green" >
+
+        <Button
+            android:id="@+id/button_more_meituan"
+            android:layout_width="wrap_content"
+            android:layout_height="310dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/green"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="美团"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button_more_more"
+            android:layout_width="wrap_content"
+            android:layout_height="310dp"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/button_more_meituan"
+            android:background="@drawable/button_city"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="更多"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_city"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="精品应用"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview_more_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="5dp"
+            android:text="设置"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/green" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_messageremind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_more"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="消息提醒"
+            android:textColor="@color/textgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/shallowgray" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_picturemode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_more"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="2G/3G下使用无图模式"
+                android:textColor="@color/textgray" />
+
+            <ImageView
+                android:id="@+id/imageview_picturemode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_settings_drag_off"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/shallowgray" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_shareset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_more"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="分享设置"
+            android:textColor="@color/textgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/shallowgray" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_emptybuffer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_more"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="清空缓存"
+                android:textColor="@color/textgray" />
+
+            <TextView
+                android:id="@+id/textview_buffer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingRight="10dp"
+                android:text="0K"
+                android:textColor="@color/textgray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/shallowgray" >
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/button_inform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="10dp"
+            android:text="通知"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/green" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_more"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="意见反馈"
+            android:textColor="@color/textgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/shallowgray" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_payhelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_more"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="支付帮助"
+            android:textColor="@color/textgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/shallowgray" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_inspectupdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/selector_more"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="检查更新"
+                android:textColor="@color/textgray" />
+
+            <TextView
+                android:id="@+id/textview_versions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="10dp"
+                android:text="当前版本v4.1.1-b114"
+                android:textColor="@color/textgray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/shallowgray" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_meituan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_more"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="10dp"
+            android:text="关于美团"
+            android:textColor="@color/textgray" />
+    </LinearLayout>
+
+</LinearLayout>
